@@ -86,8 +86,8 @@ function calculateRank({
   const normalizedScore = normalcdf(score, TOTAL_VALUES, ALL_OFFSETS) * 100;
 
   const level = (() => {
-    if (normalizedScore < RANK_S_VALUE) return "S+++";
-    if (normalizedScore < RANK_DOUBLE_A_VALUE) return "S++";
+    if (normalizedScore < RANK_S_VALUE) return "S++";
+    if (normalizedScore < RANK_DOUBLE_A_VALUE) return "S+";
     if (normalizedScore < RANK_A2_VALUE) return "uwu+";
     if (normalizedScore < RANK_A3_VALUE) return "A+";
     return "B+";
