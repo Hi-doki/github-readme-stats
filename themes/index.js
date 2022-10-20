@@ -28,7 +28,7 @@ export const themes = {
     title_color: "ffdbb7",
     icon_color: "bb7423",
     text_color: "ffdbb7",
-    bg_color: "222223",
+    bg_color: "222222",
   },
   radical: {
     title_color: "fe428e",
