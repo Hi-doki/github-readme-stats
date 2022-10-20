@@ -24,6 +24,12 @@ export const themes = {
     text_color: "9f9f9f",
     bg_color: "151515",
   },
+  kyatto: {
+    title_color: "ffdbb7",
+    icon_color: "bb7423",
+    text_color: "ffdbb7",
+    bg_color: "222222",
+  },
   radical: {
     title_color: "fe428e",
     icon_color: "f8d847",
