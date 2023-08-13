@@ -89,7 +89,7 @@ function calculateRank({
     if (normalizedScore < RANK_S_VALUE) return "S++";
     if (normalizedScore < RANK_DOUBLE_A_VALUE) return "S+";
     if (normalizedScore < RANK_A2_VALUE) return "uwu+";
-    if (normalizedScore < RANK_A3_VALUE) return "A+";
+    if (normalizedScore < RANK_A3_VALUE) return "nya+";
     return "B+";
   })();
 
